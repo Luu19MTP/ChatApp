@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import LoginForm from './components/LoginForm/LoginForm'
 
 
 
@@ -7,7 +8,7 @@ function App() {
 
   return (
     <>
-      <h1>do an cuoi ki</h1>
+      <LoginForm></LoginForm>
     </>
   )
 }
